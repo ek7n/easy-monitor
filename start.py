@@ -9,12 +9,8 @@ st.set_page_config(layout="wide", page_title="Hotel data", page_icon="🏖")
 # Use HTML within st.markdown to apply color styling
 st.markdown("<h1 style='color: orange;'>Easy<span style='color: blue;'>Monitor</span> 🏖</h1>", unsafe_allow_html=True)
 
-st.subheader("Discover the perfect soundtrack for every mood!")
+st.subheader("Welcome to EasyMonitor – Your Comprehensive Hotel Booking Cancellation Monitoring Tool!")
 
-st.markdown("""
-Welcome to EasyMonitor – Your Comprehensive Hotel Booking Cancellation Monitoring Tool
-
-""")
 
 home_tab, data_tab, recommendations_tab = st.tabs(["Home", "Data", "Classification"])
 
